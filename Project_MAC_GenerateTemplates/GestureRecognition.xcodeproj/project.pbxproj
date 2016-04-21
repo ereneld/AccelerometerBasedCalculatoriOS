@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260A514B134A95BD002A2AC1 /* Preprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 260A5149134A95BD002A2AC1 /* Preprocessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		260A514C134A95BD002A2AC1 /* Preprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 260A514A134A95BD002A2AC1 /* Preprocessor.m */; };
+		2618232D132BC8A800CB1773 /* LDA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2618232B132BC8A800CB1773 /* LDA.h */; settings = {ATTRIBUTES = (); }; };
+		2618232E132BC8A800CB1773 /* LDA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618232C132BC8A800CB1773 /* LDA.m */; };
+		26182331132BC8AF00CB1773 /* PCA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2618232F132BC8AF00CB1773 /* PCA.h */; settings = {ATTRIBUTES = (); }; };
+		26182332132BC8AF00CB1773 /* PCA.m in Sources */ = {isa = PBXBuildFile; fileRef = 26182330132BC8AF00CB1773 /* PCA.m */; };
+		26182337132BC8DD00CB1773 /* ModelSVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 26182335132BC8DD00CB1773 /* ModelSVM.h */; settings = {ATTRIBUTES = (); }; };
+		26182338132BC8DD00CB1773 /* ModelSVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 26182336132BC8DD00CB1773 /* ModelSVM.m */; };
+		2618233C132BCDE300CB1773 /* ModelCurveFitting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2618233A132BCDE300CB1773 /* ModelCurveFitting.h */; settings = {ATTRIBUTES = (); }; };
+		2618233D132BCDE300CB1773 /* ModelCurveFitting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618233B132BCDE300CB1773 /* ModelCurveFitting.m */; };
+		262E4544136CCE8A00BD68F1 /* ClassificationString.h in Headers */ = {isa = PBXBuildFile; fileRef = 262E4542136CCE8A00BD68F1 /* ClassificationString.h */; };
+		262E4545136CCE8A00BD68F1 /* ClassificationString.m in Sources */ = {isa = PBXBuildFile; fileRef = 262E4543136CCE8A00BD68F1 /* ClassificationString.m */; };
+		264530B3133523BD00186B98 /* AmplituteClusterFixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 264530B1133523BD00186B98 /* AmplituteClusterFixed.h */; settings = {ATTRIBUTES = (); }; };
+		264530B4133523BD00186B98 /* AmplituteClusterFixed.m in Sources */ = {isa = PBXBuildFile; fileRef = 264530B2133523BD00186B98 /* AmplituteClusterFixed.m */; };
+		2645B3F1133E1D6000140AD3 /* AmplituteClusterDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2645B3EF133E1D6000140AD3 /* AmplituteClusterDynamic.h */; settings = {ATTRIBUTES = (); }; };
+		2645B3F2133E1D6000140AD3 /* AmplituteClusterDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2645B3F0133E1D6000140AD3 /* AmplituteClusterDynamic.m */; };
+		2645B58E133E6D7800140AD3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2645B58D133E6D7800140AD3 /* Accelerate.framework */; };
+		2647872F134010AC003888AE /* FFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 2647872D134010AB003888AE /* FFT.h */; settings = {ATTRIBUTES = (); }; };
+		26478730134010AC003888AE /* FFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 2647872E134010AB003888AE /* FFT.m */; };
+		26481C6B13606C93007421C5 /* Model3DHMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 26481C6913606C93007421C5 /* Model3DHMM.h */; };
+		26481C6C13606C93007421C5 /* Model3DHMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 26481C6A13606C93007421C5 /* Model3DHMM.m */; };
+		265596F813226CCB00302C4F /* ConfusionMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 265596F613226CCB00302C4F /* ConfusionMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265596F913226CCB00302C4F /* ConfusionMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 265596F713226CCB00302C4F /* ConfusionMatrix.m */; };
+		2655973513228D2900302C4F /* ModelMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 2655973313228D2900302C4F /* ModelMM.h */; settings = {ATTRIBUTES = (); }; };
+		2655973613228D2900302C4F /* ModelMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655973413228D2900302C4F /* ModelMM.m */; };
+		2656B5C1135E38D50099E988 /* ClusterDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2656B5BF135E38D50099E988 /* ClusterDynamic.h */; };
+		2656B5C2135E38D50099E988 /* ClusterDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656B5C0135E38D50099E988 /* ClusterDynamic.m */; };
+		2660B4CA12E71FF2001FFB46 /* LowPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660B4C812E71FF2001FFB46 /* LowPassFilter.h */; settings = {ATTRIBUTES = (); }; };
+		2660B4CB12E71FF2001FFB46 /* LowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2660B4C912E71FF2001FFB46 /* LowPassFilter.m */; };
+		2660B4CE12E71FFE001FFB46 /* HighPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660B4CC12E71FFE001FFB46 /* HighPassFilter.h */; settings = {ATTRIBUTES = (); }; };
+		2660B4CF12E71FFE001FFB46 /* HighPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2660B4CD12E71FFE001FFB46 /* HighPassFilter.m */; };
+		2660B4D212E7214F001FFB46 /* BandPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660B4D012E7214F001FFB46 /* BandPassFilter.h */; settings = {ATTRIBUTES = (); }; };
+		2660B4D312E7214F001FFB46 /* BandPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2660B4D112E7214F001FFB46 /* BandPassFilter.m */; };
+		2660B4F112E72426001FFB46 /* Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660B4EF12E72426001FFB46 /* Filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2660B4F212E72426001FFB46 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2660B4F012E72426001FFB46 /* Filter.m */; };
+		2660B50712E72857001FFB46 /* KalmanFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660B50512E72857001FFB46 /* KalmanFilter.h */; settings = {ATTRIBUTES = (); }; };
+		2660B50812E72857001FFB46 /* KalmanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2660B50612E72857001FFB46 /* KalmanFilter.m */; };
+		269CADB6132A567600507D7A /* DimensionalReductor.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADB4132A567600507D7A /* DimensionalReductor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269CADB7132A567600507D7A /* DimensionalReductor.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADB5132A567600507D7A /* DimensionalReductor.m */; };
+		269CADBF132A5E5900507D7A /* Sampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADBD132A5E5900507D7A /* Sampler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269CADC0132A5E5900507D7A /* Sampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADBE132A5E5900507D7A /* Sampler.m */; };
+		269CADC3132A5EF500507D7A /* SimpleSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADC1132A5EF500507D7A /* SimpleSampler.h */; settings = {ATTRIBUTES = (); }; };
+		269CADC4132A5EF500507D7A /* SimpleSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADC2132A5EF500507D7A /* SimpleSampler.m */; };
+		269CADC7132A5EFE00507D7A /* AverageSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADC5132A5EFE00507D7A /* AverageSampler.h */; settings = {ATTRIBUTES = (); }; };
+		269CADC8132A5EFE00507D7A /* AverageSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADC6132A5EFE00507D7A /* AverageSampler.m */; };
+		269CADCB132A5F0700507D7A /* MedianSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADC9132A5F0700507D7A /* MedianSampler.h */; settings = {ATTRIBUTES = (); }; };
+		269CADCC132A5F0700507D7A /* MedianSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADCA132A5F0700507D7A /* MedianSampler.m */; };
+		269CADEF132A7EF500507D7A /* MiddleSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CADED132A7EF500507D7A /* MiddleSampler.h */; settings = {ATTRIBUTES = (); }; };
+		269CADF0132A7EF500507D7A /* MiddleSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CADEE132A7EF500507D7A /* MiddleSampler.m */; };
+		269CAE6C132AAA5100507D7A /* NoiseEliminator.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CAE6A132AAA5100507D7A /* NoiseEliminator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269CAE6D132AAA5100507D7A /* NoiseEliminator.m in Sources */ = {isa = PBXBuildFile; fileRef = 269CAE6B132AAA5100507D7A /* NoiseEliminator.m */; };
+		26A9EE7F12E9C21100151874 /* Cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EE7D12E9C21100151874 /* Cluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A9EE8012E9C21100151874 /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EE7E12E9C21100151874 /* Cluster.m */; };
+		26A9EE8312E9C22400151874 /* KMeanCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EE8112E9C22400151874 /* KMeanCluster.h */; settings = {ATTRIBUTES = (); }; };
+		26A9EE8412E9C22400151874 /* KMeanCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EE8212E9C22400151874 /* KMeanCluster.m */; };
+		26A9EE8712E9C23100151874 /* KMedoidCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EE8512E9C23100151874 /* KMedoidCluster.h */; settings = {ATTRIBUTES = (); }; };
+		26A9EE8812E9C23100151874 /* KMedoidCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EE8612E9C23100151874 /* KMedoidCluster.m */; };
+		26A9EE9012E9C45100151874 /* TrajectoryAngleQuantization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EE8E12E9C45100151874 /* TrajectoryAngleQuantization.h */; settings = {ATTRIBUTES = (); }; };
+		26A9EE9112E9C45100151874 /* TrajectoryAngleQuantization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EE8F12E9C45100151874 /* TrajectoryAngleQuantization.m */; };
+		26A9EED212E9EEF200151874 /* LloydCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EED012E9EEF200151874 /* LloydCluster.h */; settings = {ATTRIBUTES = (); }; };
+		26A9EED312E9EEF200151874 /* LloydCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EED112E9EEF200151874 /* LloydCluster.m */; };
+		26A9EEFF12E9F3EA00151874 /* Classifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9EEFD12E9F3EA00151874 /* Classifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A9EF0012E9F3EA00151874 /* Classifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9EEFE12E9F3EA00151874 /* Classifier.m */; };
+		26A9F23712ED7EAE00151874 /* ModelHMMWii.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9F23512ED7EAE00151874 /* ModelHMMWii.h */; settings = {ATTRIBUTES = (); }; };
+		26A9F23812ED7EAE00151874 /* ModelHMMWii.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9F23612ED7EAE00151874 /* ModelHMMWii.m */; };
+		26A9F23B12ED7EBB00151874 /* ModelPreciseHMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9F23912ED7EBB00151874 /* ModelPreciseHMM.h */; settings = {ATTRIBUTES = (); }; };
+		26A9F23C12ED7EBB00151874 /* ModelPreciseHMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9F23A12ED7EBB00151874 /* ModelPreciseHMM.m */; };
+		26A9F23F12ED7EC400151874 /* ModelDTW.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A9F23D12ED7EC400151874 /* ModelDTW.h */; settings = {ATTRIBUTES = (); }; };
+		26A9F24012ED7EC400151874 /* ModelDTW.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9F23E12ED7EC400151874 /* ModelDTW.m */; };
+		26B60B8913391A1700DFAFD1 /* ModelHMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B60B8713391A1700DFAFD1 /* ModelHMM.h */; settings = {ATTRIBUTES = (); }; };
+		26B60B8A13391A1700DFAFD1 /* ModelHMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B60B8813391A1700DFAFD1 /* ModelHMM.m */; };
+		26E1208812CFD65700F7A4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		26E120C612CFDB8700F7A4A0 /* Parameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E120C412CFDB8700F7A4A0 /* Parameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E120C712CFDB8700F7A4A0 /* Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E120C512CFDB8700F7A4A0 /* Parameter.m */; };
+		26E120CA12CFDBC800F7A4A0 /* DataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E120C812CFDBC800F7A4A0 /* DataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E120CB12CFDBC800F7A4A0 /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E120C912CFDBC800F7A4A0 /* DataSet.m */; };
+		26E120DF12CFDC3E00F7A4A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E11E7412CFCB9D00F7A4A0 /* main.m */; };
+		26E1211212D1237000F7A4A0 /* ConfigurationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E1211012D1237000F7A4A0 /* ConfigurationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E1211312D1237000F7A4A0 /* ConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E1211112D1237000F7A4A0 /* ConfigurationManager.m */; };
+		26E1211512D123F700F7A4A0 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E1211412D123F700F7A4A0 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E1213512D1587800F7A4A0 /* GestureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E1213312D1587800F7A4A0 /* GestureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E1213612D1587800F7A4A0 /* GestureData.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E1213412D1587800F7A4A0 /* GestureData.m */; };
+		26E74D8C12D20A38007C4273 /* TEMPLATE_Dataset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E74D8A12D20A38007C4273 /* TEMPLATE_Dataset.plist */; };
+		26E74D8D12D20A38007C4273 /* TEMPLATE_ParameterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E74D8B12D20A38007C4273 /* TEMPLATE_ParameterList.plist */; };
+		26F3F74A12F0706700DA6FEA /* CrossValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F3F74812F0706700DA6FEA /* CrossValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F3F74B12F0706700DA6FEA /* CrossValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3F74912F0706700DA6FEA /* CrossValidator.m */; };
+		26F3F74E12F0734300DA6FEA /* KFoldValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F3F74C12F0734300DA6FEA /* KFoldValidator.h */; settings = {ATTRIBUTES = (); }; };
+		26F3F74F12F0734300DA6FEA /* KFoldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3F74D12F0734300DA6FEA /* KFoldValidator.m */; };
+		26F3F75212F0739F00DA6FEA /* RandomSubsampling.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F3F75012F0739F00DA6FEA /* RandomSubsampling.h */; settings = {ATTRIBUTES = (); }; };
+		26F3F75312F0739F00DA6FEA /* RandomSubsampling.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3F75112F0739F00DA6FEA /* RandomSubsampling.m */; };
+		26F3F75612F073BB00DA6FEA /* LeaveOneOut.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F3F75412F073BB00DA6FEA /* LeaveOneOut.h */; settings = {ATTRIBUTES = (); }; };
+		26F3F75712F073BB00DA6FEA /* LeaveOneOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3F75512F073BB00DA6FEA /* LeaveOneOut.m */; };
+		26FBAD5E13BA0FDE0021C47A /* GestureRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FBAD5D13BA0FDE0021C47A /* GestureRecognition.framework */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269D1B58133FBD9C0023A7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = GestureRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		260A5149134A95BD002A2AC1 /* Preprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preprocessor.h; sourceTree = "<group>"; };
+		260A514A134A95BD002A2AC1 /* Preprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preprocessor.m; sourceTree = "<group>"; };
+		2618232B132BC8A800CB1773 /* LDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDA.h; sourceTree = "<group>"; };
+		2618232C132BC8A800CB1773 /* LDA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDA.m; sourceTree = "<group>"; };
+		2618232F132BC8AF00CB1773 /* PCA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCA.h; sourceTree = "<group>"; };
+		26182330132BC8AF00CB1773 /* PCA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCA.m; sourceTree = "<group>"; };
+		26182335132BC8DD00CB1773 /* ModelSVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ModelSVM.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		26182336132BC8DD00CB1773 /* ModelSVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelSVM.m; sourceTree = "<group>"; };
+		2618233A132BCDE300CB1773 /* ModelCurveFitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ModelCurveFitting.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2618233B132BCDE300CB1773 /* ModelCurveFitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCurveFitting.m; sourceTree = "<group>"; };
+		262E4542136CCE8A00BD68F1 /* ClassificationString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationString.h; sourceTree = "<group>"; };
+		262E4543136CCE8A00BD68F1 /* ClassificationString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassificationString.m; sourceTree = "<group>"; };
+		264530B1133523BD00186B98 /* AmplituteClusterFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AmplituteClusterFixed.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		264530B2133523BD00186B98 /* AmplituteClusterFixed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmplituteClusterFixed.m; sourceTree = "<group>"; };
+		2645B3EF133E1D6000140AD3 /* AmplituteClusterDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplituteClusterDynamic.h; sourceTree = "<group>"; };
+		2645B3F0133E1D6000140AD3 /* AmplituteClusterDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmplituteClusterDynamic.m; sourceTree = "<group>"; };
+		2645B58D133E6D7800140AD3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2647872D134010AB003888AE /* FFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFT.h; sourceTree = "<group>"; };
+		2647872E134010AB003888AE /* FFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFT.m; sourceTree = "<group>"; };
+		26481C6913606C93007421C5 /* Model3DHMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model3DHMM.h; sourceTree = "<group>"; };
+		26481C6A13606C93007421C5 /* Model3DHMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model3DHMM.m; sourceTree = "<group>"; };
+		265596F613226CCB00302C4F /* ConfusionMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ConfusionMatrix.h; sourceTree = "<group>"; };
+		265596F713226CCB00302C4F /* ConfusionMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfusionMatrix.m; sourceTree = "<group>"; };
+		2655973313228D2900302C4F /* ModelMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMM.h; sourceTree = "<group>"; };
+		2655973413228D2900302C4F /* ModelMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMM.m; sourceTree = "<group>"; };
+		2656B5BF135E38D50099E988 /* ClusterDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterDynamic.h; sourceTree = "<group>"; };
+		2656B5C0135E38D50099E988 /* ClusterDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterDynamic.m; sourceTree = "<group>"; };
+		2660B4C812E71FF2001FFB46 /* LowPassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowPassFilter.h; sourceTree = "<group>"; };
+		2660B4C912E71FF2001FFB46 /* LowPassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowPassFilter.m; sourceTree = "<group>"; };
+		2660B4CC12E71FFE001FFB46 /* HighPassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighPassFilter.h; sourceTree = "<group>"; };
+		2660B4CD12E71FFE001FFB46 /* HighPassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighPassFilter.m; sourceTree = "<group>"; };
+		2660B4D012E7214F001FFB46 /* BandPassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandPassFilter.h; sourceTree = "<group>"; };
+		2660B4D112E7214F001FFB46 /* BandPassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandPassFilter.m; sourceTree = "<group>"; };
+		2660B4EF12E72426001FFB46 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		2660B4F012E72426001FFB46 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		2660B50512E72857001FFB46 /* KalmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalmanFilter.h; sourceTree = "<group>"; };
+		2660B50612E72857001FFB46 /* KalmanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KalmanFilter.m; sourceTree = "<group>"; };
+		2699F1511353B45000CBD46C /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		269CADB4132A567600507D7A /* DimensionalReductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimensionalReductor.h; sourceTree = "<group>"; };
+		269CADB5132A567600507D7A /* DimensionalReductor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimensionalReductor.m; sourceTree = "<group>"; };
+		269CADBD132A5E5900507D7A /* Sampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sampler.h; sourceTree = "<group>"; };
+		269CADBE132A5E5900507D7A /* Sampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sampler.m; sourceTree = "<group>"; };
+		269CADC1132A5EF500507D7A /* SimpleSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSampler.h; sourceTree = "<group>"; };
+		269CADC2132A5EF500507D7A /* SimpleSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleSampler.m; sourceTree = "<group>"; };
+		269CADC5132A5EFE00507D7A /* AverageSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AverageSampler.h; sourceTree = "<group>"; };
+		269CADC6132A5EFE00507D7A /* AverageSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AverageSampler.m; sourceTree = "<group>"; };
+		269CADC9132A5F0700507D7A /* MedianSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedianSampler.h; sourceTree = "<group>"; };
+		269CADCA132A5F0700507D7A /* MedianSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedianSampler.m; sourceTree = "<group>"; };
+		269CADED132A7EF500507D7A /* MiddleSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleSampler.h; sourceTree = "<group>"; };
+		269CADEE132A7EF500507D7A /* MiddleSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleSampler.m; sourceTree = "<group>"; };
+		269CAE6A132AAA5100507D7A /* NoiseEliminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseEliminator.h; sourceTree = "<group>"; };
+		269CAE6B132AAA5100507D7A /* NoiseEliminator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseEliminator.m; sourceTree = "<group>"; };
+		26A9EE7D12E9C21100151874 /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Cluster.h; sourceTree = "<group>"; };
+		26A9EE7E12E9C21100151874 /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
+		26A9EE8112E9C22400151874 /* KMeanCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMeanCluster.h; sourceTree = "<group>"; };
+		26A9EE8212E9C22400151874 /* KMeanCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMeanCluster.m; sourceTree = "<group>"; };
+		26A9EE8512E9C23100151874 /* KMedoidCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KMedoidCluster.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		26A9EE8612E9C23100151874 /* KMedoidCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMedoidCluster.m; sourceTree = "<group>"; };
+		26A9EE8E12E9C45100151874 /* TrajectoryAngleQuantization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrajectoryAngleQuantization.h; sourceTree = "<group>"; };
+		26A9EE8F12E9C45100151874 /* TrajectoryAngleQuantization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrajectoryAngleQuantization.m; sourceTree = "<group>"; };
+		26A9EED012E9EEF200151874 /* LloydCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LloydCluster.h; sourceTree = "<group>"; };
+		26A9EED112E9EEF200151874 /* LloydCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LloydCluster.m; sourceTree = "<group>"; };
+		26A9EEFD12E9F3EA00151874 /* Classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
+		26A9EEFE12E9F3EA00151874 /* Classifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classifier.m; sourceTree = "<group>"; };
+		26A9F23512ED7EAE00151874 /* ModelHMMWii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelHMMWii.h; sourceTree = "<group>"; };
+		26A9F23612ED7EAE00151874 /* ModelHMMWii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelHMMWii.m; sourceTree = "<group>"; };
+		26A9F23912ED7EBB00151874 /* ModelPreciseHMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelPreciseHMM.h; sourceTree = "<group>"; };
+		26A9F23A12ED7EBB00151874 /* ModelPreciseHMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelPreciseHMM.m; sourceTree = "<group>"; };
+		26A9F23D12ED7EC400151874 /* ModelDTW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDTW.h; sourceTree = "<group>"; };
+		26A9F23E12ED7EC400151874 /* ModelDTW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDTW.m; sourceTree = "<group>"; };
+		26B60B8713391A1700DFAFD1 /* ModelHMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelHMM.h; sourceTree = "<group>"; };
+		26B60B8813391A1700DFAFD1 /* ModelHMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelHMM.m; sourceTree = "<group>"; };
+		26E11E7412CFCB9D00F7A4A0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26E11EB312CFCDB900F7A4A0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		26E120C412CFDB8700F7A4A0 /* Parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Parameter.h; sourceTree = "<group>"; };
+		26E120C512CFDB8700F7A4A0 /* Parameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameter.m; sourceTree = "<group>"; };
+		26E120C812CFDBC800F7A4A0 /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		26E120C912CFDBC800F7A4A0 /* DataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSet.m; sourceTree = "<group>"; };
+		26E1211012D1237000F7A4A0 /* ConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationManager.h; sourceTree = "<group>"; };
+		26E1211112D1237000F7A4A0 /* ConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationManager.m; sourceTree = "<group>"; };
+		26E1211412D123F700F7A4A0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		26E1213312D1587800F7A4A0 /* GestureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureData.h; sourceTree = "<group>"; };
+		26E1213412D1587800F7A4A0 /* GestureData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureData.m; sourceTree = "<group>"; };
+		26E74D8A12D20A38007C4273 /* TEMPLATE_Dataset.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TEMPLATE_Dataset.plist; sourceTree = "<group>"; };
+		26E74D8B12D20A38007C4273 /* TEMPLATE_ParameterList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TEMPLATE_ParameterList.plist; sourceTree = "<group>"; };
+		26F3F74812F0706700DA6FEA /* CrossValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CrossValidator.h; sourceTree = "<group>"; };
+		26F3F74912F0706700DA6FEA /* CrossValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossValidator.m; sourceTree = "<group>"; };
+		26F3F74C12F0734300DA6FEA /* KFoldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFoldValidator.h; sourceTree = "<group>"; };
+		26F3F74D12F0734300DA6FEA /* KFoldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFoldValidator.m; sourceTree = "<group>"; };
+		26F3F75012F0739F00DA6FEA /* RandomSubsampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSubsampling.h; sourceTree = "<group>"; };
+		26F3F75112F0739F00DA6FEA /* RandomSubsampling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSubsampling.m; sourceTree = "<group>"; };
+		26F3F75412F073BB00DA6FEA /* LeaveOneOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveOneOut.h; sourceTree = "<group>"; };
+		26F3F75512F073BB00DA6FEA /* LeaveOneOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveOneOut.m; sourceTree = "<group>"; };
+		26FBAD5813BA09A40021C47A /* GestureRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GestureRecognition.framework; path = /Release/Release/GestureRecognition.framework; sourceTree = "<absolute>"; };
+		26FBAD5D13BA0FDE0021C47A /* GestureRecognition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GestureRecognition.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GestureRecognition-enfqxsktvtxpsohkeznifbnunkod/Build/Products/Debug/GestureRecognition.framework"; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* GestureRecognition_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognition_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E120D812CFDC1800F7A4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBAD5E13BA0FDE0021C47A /* GestureRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1208812CFD65700F7A4A0 /* Foundation.framework in Frameworks */,
+				2645B58E133E6D7800140AD3 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699F1511353B45000CBD46C /* Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* GestureRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAD5D13BA0FDE0021C47A /* GestureRecognition.framework */,
+				26E11FF812CFD56100F7A4A0 /* TestConsole */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = GestureRecognition;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26E74D8A12D20A38007C4273 /* TEMPLATE_Dataset.plist */,
+				26E74D8B12D20A38007C4273 /* TEMPLATE_ParameterList.plist */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26A9F03512EB3C8100151874 /* Library */,
+				2660B4C712E71F7A001FFB46 /* DataSetObjects */,
+				2660B4C612E71F60001FFB46 /* ConfigurationManager */,
+				260A5148134A9562002A2AC1 /* Preprocess */,
+				2660B4BB12E71F42001FFB46 /* Filtering */,
+				269CADB8132A5E2D00507D7A /* Sampling */,
+				269CAE69132AAA2D00507D7A /* NoiseElimination */,
+				2699F5BA12E894720063E9C4 /* Dimensional Reduction */,
+				2699F5BB12E8948B0063E9C4 /* Clustering */,
+				26F3F74712F06FDF00DA6FEA /* CrossValidation */,
+				2699F5BC12E894A30063E9C4 /* Classification */,
+				26E1211412D123F700F7A4A0 /* Constants.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E11EB312CFCDB900F7A4A0 /* CoreFoundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				2645B58D133E6D7800140AD3 /* Accelerate.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		260A5148134A9562002A2AC1 /* Preprocess */ = {
+			isa = PBXGroup;
+			children = (
+				260A5149134A95BD002A2AC1 /* Preprocessor.h */,
+				260A514A134A95BD002A2AC1 /* Preprocessor.m */,
+			);
+			name = Preprocess;
+			sourceTree = "<group>";
+		};
+		2660B4BB12E71F42001FFB46 /* Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				2660B4EF12E72426001FFB46 /* Filter.h */,
+				2660B4F012E72426001FFB46 /* Filter.m */,
+				2660B4C812E71FF2001FFB46 /* LowPassFilter.h */,
+				2660B4C912E71FF2001FFB46 /* LowPassFilter.m */,
+				2660B4CC12E71FFE001FFB46 /* HighPassFilter.h */,
+				2660B4CD12E71FFE001FFB46 /* HighPassFilter.m */,
+				2660B4D012E7214F001FFB46 /* BandPassFilter.h */,
+				2660B4D112E7214F001FFB46 /* BandPassFilter.m */,
+				2660B50512E72857001FFB46 /* KalmanFilter.h */,
+				2660B50612E72857001FFB46 /* KalmanFilter.m */,
+			);
+			name = Filtering;
+			sourceTree = "<group>";
+		};
+		2660B4C612E71F60001FFB46 /* ConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				26E1211012D1237000F7A4A0 /* ConfigurationManager.h */,
+				26E1211112D1237000F7A4A0 /* ConfigurationManager.m */,
+				26E120C412CFDB8700F7A4A0 /* Parameter.h */,
+				26E120C512CFDB8700F7A4A0 /* Parameter.m */,
+			);
+			name = ConfigurationManager;
+			sourceTree = "<group>";
+		};
+		2660B4C712E71F7A001FFB46 /* DataSetObjects */ = {
+			isa = PBXGroup;
+			children = (
+				26E120C812CFDBC800F7A4A0 /* DataSet.h */,
+				26E120C912CFDBC800F7A4A0 /* DataSet.m */,
+				26E1213312D1587800F7A4A0 /* GestureData.h */,
+				26E1213412D1587800F7A4A0 /* GestureData.m */,
+				265596F613226CCB00302C4F /* ConfusionMatrix.h */,
+				265596F713226CCB00302C4F /* ConfusionMatrix.m */,
+			);
+			name = DataSetObjects;
+			sourceTree = "<group>";
+		};
+		2699F5BA12E894720063E9C4 /* Dimensional Reduction */ = {
+			isa = PBXGroup;
+			children = (
+				269CADB4132A567600507D7A /* DimensionalReductor.h */,
+				269CADB5132A567600507D7A /* DimensionalReductor.m */,
+				2618232B132BC8A800CB1773 /* LDA.h */,
+				2618232C132BC8A800CB1773 /* LDA.m */,
+				2618232F132BC8AF00CB1773 /* PCA.h */,
+				26182330132BC8AF00CB1773 /* PCA.m */,
+				2647872D134010AB003888AE /* FFT.h */,
+				2647872E134010AB003888AE /* FFT.m */,
+			);
+			name = "Dimensional Reduction";
+			sourceTree = "<group>";
+		};
+		2699F5BB12E8948B0063E9C4 /* Clustering */ = {
+			isa = PBXGroup;
+			children = (
+				26A9EE7D12E9C21100151874 /* Cluster.h */,
+				26A9EE7E12E9C21100151874 /* Cluster.m */,
+				26A9EE8112E9C22400151874 /* KMeanCluster.h */,
+				26A9EE8212E9C22400151874 /* KMeanCluster.m */,
+				26A9EE8512E9C23100151874 /* KMedoidCluster.h */,
+				26A9EE8612E9C23100151874 /* KMedoidCluster.m */,
+				26A9EE8E12E9C45100151874 /* TrajectoryAngleQuantization.h */,
+				26A9EE8F12E9C45100151874 /* TrajectoryAngleQuantization.m */,
+				26A9EED012E9EEF200151874 /* LloydCluster.h */,
+				26A9EED112E9EEF200151874 /* LloydCluster.m */,
+				264530B1133523BD00186B98 /* AmplituteClusterFixed.h */,
+				264530B2133523BD00186B98 /* AmplituteClusterFixed.m */,
+				2645B3EF133E1D6000140AD3 /* AmplituteClusterDynamic.h */,
+				2645B3F0133E1D6000140AD3 /* AmplituteClusterDynamic.m */,
+				2656B5BF135E38D50099E988 /* ClusterDynamic.h */,
+				2656B5C0135E38D50099E988 /* ClusterDynamic.m */,
+			);
+			name = Clustering;
+			sourceTree = "<group>";
+		};
+		2699F5BC12E894A30063E9C4 /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				26A9EEFD12E9F3EA00151874 /* Classifier.h */,
+				26A9EEFE12E9F3EA00151874 /* Classifier.m */,
+				2655973313228D2900302C4F /* ModelMM.h */,
+				2655973413228D2900302C4F /* ModelMM.m */,
+				26B60B8713391A1700DFAFD1 /* ModelHMM.h */,
+				26B60B8813391A1700DFAFD1 /* ModelHMM.m */,
+				26481C6913606C93007421C5 /* Model3DHMM.h */,
+				26481C6A13606C93007421C5 /* Model3DHMM.m */,
+				26A9F23512ED7EAE00151874 /* ModelHMMWii.h */,
+				26A9F23612ED7EAE00151874 /* ModelHMMWii.m */,
+				26A9F23912ED7EBB00151874 /* ModelPreciseHMM.h */,
+				26A9F23A12ED7EBB00151874 /* ModelPreciseHMM.m */,
+				26A9F23D12ED7EC400151874 /* ModelDTW.h */,
+				26A9F23E12ED7EC400151874 /* ModelDTW.m */,
+				26182335132BC8DD00CB1773 /* ModelSVM.h */,
+				26182336132BC8DD00CB1773 /* ModelSVM.m */,
+				2618233A132BCDE300CB1773 /* ModelCurveFitting.h */,
+				2618233B132BCDE300CB1773 /* ModelCurveFitting.m */,
+			);
+			name = Classification;
+			sourceTree = "<group>";
+		};
+		269CADB8132A5E2D00507D7A /* Sampling */ = {
+			isa = PBXGroup;
+			children = (
+				269CADBD132A5E5900507D7A /* Sampler.h */,
+				269CADBE132A5E5900507D7A /* Sampler.m */,
+				269CADC1132A5EF500507D7A /* SimpleSampler.h */,
+				269CADC2132A5EF500507D7A /* SimpleSampler.m */,
+				269CADC5132A5EFE00507D7A /* AverageSampler.h */,
+				269CADC6132A5EFE00507D7A /* AverageSampler.m */,
+				269CADC9132A5F0700507D7A /* MedianSampler.h */,
+				269CADCA132A5F0700507D7A /* MedianSampler.m */,
+				269CADED132A7EF500507D7A /* MiddleSampler.h */,
+				269CADEE132A7EF500507D7A /* MiddleSampler.m */,
+			);
+			name = Sampling;
+			sourceTree = "<group>";
+		};
+		269CAE69132AAA2D00507D7A /* NoiseElimination */ = {
+			isa = PBXGroup;
+			children = (
+				269CAE6A132AAA5100507D7A /* NoiseEliminator.h */,
+				269CAE6B132AAA5100507D7A /* NoiseEliminator.m */,
+			);
+			name = NoiseElimination;
+			sourceTree = "<group>";
+		};
+		26A9F03512EB3C8100151874 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				262E4542136CCE8A00BD68F1 /* ClassificationString.h */,
+				262E4543136CCE8A00BD68F1 /* ClassificationString.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		26E11FF812CFD56100F7A4A0 /* TestConsole */ = {
+			isa = PBXGroup;
+			children = (
+				26E11E7412CFCB9D00F7A4A0 /* main.m */,
+			);
+			name = TestConsole;
+			sourceTree = "<group>";
+		};
+		26F3F74712F06FDF00DA6FEA /* CrossValidation */ = {
+			isa = PBXGroup;
+			children = (
+				26F3F74812F0706700DA6FEA /* CrossValidator.h */,
+				26F3F74912F0706700DA6FEA /* CrossValidator.m */,
+				26F3F74C12F0734300DA6FEA /* KFoldValidator.h */,
+				26F3F74D12F0734300DA6FEA /* KFoldValidator.m */,
+				26F3F75012F0739F00DA6FEA /* RandomSubsampling.h */,
+				26F3F75112F0739F00DA6FEA /* RandomSubsampling.m */,
+				26F3F75412F073BB00DA6FEA /* LeaveOneOut.h */,
+				26F3F75512F073BB00DA6FEA /* LeaveOneOut.m */,
+			);
+			name = CrossValidation;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* GestureRecognition_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1211512D123F700F7A4A0 /* Constants.h in Headers */,
+				26E120CA12CFDBC800F7A4A0 /* DataSet.h in Headers */,
+				26E120C612CFDB8700F7A4A0 /* Parameter.h in Headers */,
+				26E1211212D1237000F7A4A0 /* ConfigurationManager.h in Headers */,
+				26E1213512D1587800F7A4A0 /* GestureData.h in Headers */,
+				265596F813226CCB00302C4F /* ConfusionMatrix.h in Headers */,
+				269CADB6132A567600507D7A /* DimensionalReductor.h in Headers */,
+				269CAE6C132AAA5100507D7A /* NoiseEliminator.h in Headers */,
+				260A514B134A95BD002A2AC1 /* Preprocessor.h in Headers */,
+				2660B4F112E72426001FFB46 /* Filter.h in Headers */,
+				26A9EE7F12E9C21100151874 /* Cluster.h in Headers */,
+				269CADBF132A5E5900507D7A /* Sampler.h in Headers */,
+				26F3F74A12F0706700DA6FEA /* CrossValidator.h in Headers */,
+				26A9EEFF12E9F3EA00151874 /* Classifier.h in Headers */,
+				2660B4CA12E71FF2001FFB46 /* LowPassFilter.h in Headers */,
+				2660B4CE12E71FFE001FFB46 /* HighPassFilter.h in Headers */,
+				2660B4D212E7214F001FFB46 /* BandPassFilter.h in Headers */,
+				2660B50712E72857001FFB46 /* KalmanFilter.h in Headers */,
+				26A9EE8312E9C22400151874 /* KMeanCluster.h in Headers */,
+				26A9EE8712E9C23100151874 /* KMedoidCluster.h in Headers */,
+				26A9EE9012E9C45100151874 /* TrajectoryAngleQuantization.h in Headers */,
+				26A9EED212E9EEF200151874 /* LloydCluster.h in Headers */,
+				26A9F23712ED7EAE00151874 /* ModelHMMWii.h in Headers */,
+				26A9F23B12ED7EBB00151874 /* ModelPreciseHMM.h in Headers */,
+				26A9F23F12ED7EC400151874 /* ModelDTW.h in Headers */,
+				26F3F74E12F0734300DA6FEA /* KFoldValidator.h in Headers */,
+				26F3F75212F0739F00DA6FEA /* RandomSubsampling.h in Headers */,
+				26F3F75612F073BB00DA6FEA /* LeaveOneOut.h in Headers */,
+				2655973513228D2900302C4F /* ModelMM.h in Headers */,
+				264530B3133523BD00186B98 /* AmplituteClusterFixed.h in Headers */,
+				26B60B8913391A1700DFAFD1 /* ModelHMM.h in Headers */,
+				2645B3F1133E1D6000140AD3 /* AmplituteClusterDynamic.h in Headers */,
+				2647872F134010AC003888AE /* FFT.h in Headers */,
+				269CADC3132A5EF500507D7A /* SimpleSampler.h in Headers */,
+				269CADC7132A5EFE00507D7A /* AverageSampler.h in Headers */,
+				269CADCB132A5F0700507D7A /* MedianSampler.h in Headers */,
+				269CADEF132A7EF500507D7A /* MiddleSampler.h in Headers */,
+				2618232D132BC8A800CB1773 /* LDA.h in Headers */,
+				26182331132BC8AF00CB1773 /* PCA.h in Headers */,
+				26182337132BC8DD00CB1773 /* ModelSVM.h in Headers */,
+				2618233C132BCDE300CB1773 /* ModelCurveFitting.h in Headers */,
+				2656B5C1135E38D50099E988 /* ClusterDynamic.h in Headers */,
+				26481C6B13606C93007421C5 /* Model3DHMM.h in Headers */,
+				262E4544136CCE8A00BD68F1 /* ClassificationString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26E120D912CFDC1800F7A4A0 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E120F212CFDC5100F7A4A0 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				26E120D712CFDC1800F7A4A0 /* Sources */,
+				26E120D812CFDC1800F7A4A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269D1B59133FBD9C0023A7E8 /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+			productReference = 2699F1511353B45000CBD46C /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DC2EF4F0486A6940098B216 /* GestureRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "GestureRecognition" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognition;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = GestureRecognition;
+			productReference = 26FBAD5813BA09A40021C47A /* GestureRecognition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "GestureRecognition" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* GestureRecognition */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* GestureRecognition */,
+				26E120D912CFDC1800F7A4A0 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				26E74D8C12D20A38007C4273 /* TEMPLATE_Dataset.plist in Resources */,
+				26E74D8D12D20A38007C4273 /* TEMPLATE_ParameterList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E120D712CFDC1800F7A4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E120DF12CFDC3E00F7A4A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E120CB12CFDBC800F7A4A0 /* DataSet.m in Sources */,
+				26E1211312D1237000F7A4A0 /* ConfigurationManager.m in Sources */,
+				26E1213612D1587800F7A4A0 /* GestureData.m in Sources */,
+				265596F913226CCB00302C4F /* ConfusionMatrix.m in Sources */,
+				2660B4CB12E71FF2001FFB46 /* LowPassFilter.m in Sources */,
+				2660B4CF12E71FFE001FFB46 /* HighPassFilter.m in Sources */,
+				26E120C712CFDB8700F7A4A0 /* Parameter.m in Sources */,
+				2660B4D312E7214F001FFB46 /* BandPassFilter.m in Sources */,
+				2660B4F212E72426001FFB46 /* Filter.m in Sources */,
+				2660B50812E72857001FFB46 /* KalmanFilter.m in Sources */,
+				26A9EE8012E9C21100151874 /* Cluster.m in Sources */,
+				26A9EE8412E9C22400151874 /* KMeanCluster.m in Sources */,
+				26A9EE8812E9C23100151874 /* KMedoidCluster.m in Sources */,
+				26A9EE9112E9C45100151874 /* TrajectoryAngleQuantization.m in Sources */,
+				26A9EED312E9EEF200151874 /* LloydCluster.m in Sources */,
+				26A9EF0012E9F3EA00151874 /* Classifier.m in Sources */,
+				26A9F23812ED7EAE00151874 /* ModelHMMWii.m in Sources */,
+				26A9F23C12ED7EBB00151874 /* ModelPreciseHMM.m in Sources */,
+				26A9F24012ED7EC400151874 /* ModelDTW.m in Sources */,
+				26F3F74B12F0706700DA6FEA /* CrossValidator.m in Sources */,
+				26F3F74F12F0734300DA6FEA /* KFoldValidator.m in Sources */,
+				26F3F75312F0739F00DA6FEA /* RandomSubsampling.m in Sources */,
+				26F3F75712F073BB00DA6FEA /* LeaveOneOut.m in Sources */,
+				2655973613228D2900302C4F /* ModelMM.m in Sources */,
+				269CADB7132A567600507D7A /* DimensionalReductor.m in Sources */,
+				269CADC0132A5E5900507D7A /* Sampler.m in Sources */,
+				269CADC4132A5EF500507D7A /* SimpleSampler.m in Sources */,
+				269CADC8132A5EFE00507D7A /* AverageSampler.m in Sources */,
+				269CADCC132A5F0700507D7A /* MedianSampler.m in Sources */,
+				269CADF0132A7EF500507D7A /* MiddleSampler.m in Sources */,
+				269CAE6D132AAA5100507D7A /* NoiseEliminator.m in Sources */,
+				2618232E132BC8A800CB1773 /* LDA.m in Sources */,
+				26182332132BC8AF00CB1773 /* PCA.m in Sources */,
+				26478730134010AC003888AE /* FFT.m in Sources */,
+				26182338132BC8DD00CB1773 /* ModelSVM.m in Sources */,
+				2618233D132BCDE300CB1773 /* ModelCurveFitting.m in Sources */,
+				264530B4133523BD00186B98 /* AmplituteClusterFixed.m in Sources */,
+				26B60B8A13391A1700DFAFD1 /* ModelHMM.m in Sources */,
+				2645B3F2133E1D6000140AD3 /* AmplituteClusterDynamic.m in Sources */,
+				260A514C134A95BD002A2AC1 /* Preprocessor.m in Sources */,
+				2656B5C2135E38D50099E988 /* ClusterDynamic.m in Sources */,
+				26481C6C13606C93007421C5 /* Model3DHMM.m in Sources */,
+				262E4545136CCE8A00BD68F1 /* ClassificationString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269D1B59133FBD9C0023A7E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* GestureRecognition */;
+			targetProxy = 269D1B58133FBD9C0023A7E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/GestureRecognition-hhzbfcmxnavvkobrkjsgdqyzhunl/Build/Products/Debug\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureRecognition_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_APPS_DIR)/MATLAB_R2008a/bin/maci\"",
+				);
+				PRODUCT_NAME = GestureRecognition;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/GestureRecognition-hhzbfcmxnavvkobrkjsgdqyzhunl/Build/Products/Debug\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureRecognition_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_APPS_DIR)/MATLAB_R2008a/bin/maci\"",
+				);
+				PRODUCT_NAME = GestureRecognition;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SYMROOT = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SYMROOT = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+			};
+			name = Release;
+		};
+		26E120DC12CFDC1800F7A4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/GestureRecognition-enfqxsktvtxpsohkeznifbnunkod/Build/Products/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+			};
+			name = Debug;
+		};
+		26E120DD12CFDC1800F7A4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/GestureRecognition-enfqxsktvtxpsohkeznifbnunkod/Build/Products/Debug\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "GestureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "GestureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E120F212CFDC5100F7A4A0 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E120DC12CFDC1800F7A4A0 /* Debug */,
+				26E120DD12CFDC1800F7A4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
